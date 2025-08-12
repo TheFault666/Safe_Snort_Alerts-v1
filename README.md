@@ -4,9 +4,13 @@ These scripts help you generate Snort alerts to verify whether your Snort servic
 # Usage:
 **Run Powershell as Administrator**
 
-```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
-```.\<script-name>.ps1```
+```
+.\<script-name>.ps1
+```
 
 # Note:
 * Tested on FlareVM. You can install or use it on any Windows system—your choice.
